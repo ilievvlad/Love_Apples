@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<title>Картка товару</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<!-- <style>body{opacity: 0;}</style> -->
+	<link rel="stylesheet" href="css/style.min.css?_v=20220419005634">
+	<link rel="shortcut icon" href="favicon.ico">
+	<!-- <meta name="robots" content="noindex, nofollow"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header">
+			<div class="header__top top-header">
+				<div class="top-header__container">
+					<div class="top-header__menu menu">
+						<nav class="menu__body">
+							<ul class="menu__list">
+								<li class="menu__item"><a href="#" class="menu__link">Акція</a></li>
+								<li class="menu__item"><a href="#" class="menu__link">Гарантія</a></li>
+								<li class="menu__item"><a href="#" class="menu__link">Оплата</a></li>
+								<li class="menu__item"><a href="#" class="menu__link">Доставка</a></li>
+								<li class="menu__item"><a href="#" class="menu__link">Контакти</a></li>
+							</ul>
+						</nav>
+					</div>
+					<div class="top-header__search">
+						<div class="search-form">
+							<button type="button" class="search-form__icon _icon-search"></button>
+							<form action="#" class="search-form__item">
+								<button type="button" class="search-form__button _icon-search"></button>
+								<input type="text" name="form[]" placeholder="Пошук" class="search-form__input">
+							</form>
+						</div>
+					</div>
+					<div data-da=".menu__body, 767.98" class="top-header__phones phones-header">
+						<div data-spollers class="phones-header__items">
+							<div class="phones-header__item">
+								<a href="tel:+38(098)0585377" class="phones-header__phone">+38 (098) 058 53 77</a>
+								<button type="button" data-spoller class="phones-header__arrow _icon-arrow"></button>
+								<ul class="phones-header__list">
+									<li><a href="tel:+38(098)0585366" class="phones-header__phone">+38 (098) 058 53 66</a></li>
+									<li><a href="tel:+38(098)0585388" class="phones-header__phone">+38 (098) 058 53 88</a></li>
+									<li><a href="tel:+38(098)0585399" class="phones-header__phone">+38 (098) 058 53 99</a></li>
+								</ul>
+							</div>
+						</div>
+						<button type="button" data-popup="#callback" class="phones-header__callback">Замовити дзвінок</button>
+					</div>
+					<button type="button" class="icon-menu"><span></span></button>
+				</div>
+			</div>
+			<div class="header__bottom bottom-header">
+				<div class="bottom-header__container">
+					<div class="bottom-header__main">
+						<a href="index.html" data-da=".top-header__container, 767.98, 0" class="bottom-header__logo"><span>Love</span> &
+							Apples</a>
+						<div data-da=".menu__body, 767.98, 0" class="bottom-header__catalog catalog-header">
+							<button type="button" class="catalog-header__btn _icon-catalog">Каталог</button>
+							<ul class="catalog-header__menu">
+								<li class="catalog-header__list">
+									<a href="catalog-product.html" class="catalog-header__link">iPhone</a>
+								</li>
+								<li class="catalog-header__list">
+									<a href="catalog-product.html" class="catalog-header__link">AirPods</a>
+								</li>
+								<li class="catalog-header__list">
+									<a href="catalog-product.html" class="catalog-header__link">MacBook</a>
+								</li>
+								<li class="catalog-header__list">
+									<a href="catalog-product.html" class="catalog-header__link">iMac</a>
+								</li>
+								<li class="catalog-header__list">
+									<a href="catalog-product.html" class="catalog-header__link">Apple Watch</a>
+								</li>
+								<li class="catalog-header__list">
+									<a href="catalog-product.html" class="catalog-header__link">iPad</a>
+								</li>
+								<li class="catalog-header__list">
+									<a href="catalog-product.html" class="catalog-header__link">Зарядки</a>
+								</li>
+								<li class="catalog-header__list">
+									<a href="catalog-product.html" class="catalog-header__link">Аксесуари</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<div data-da=".menu__body, 767.98" class="bottom-header__languages lang-switcher">
+						<ul class="lang-switcher__list">
+							<li class="lang-switcher__item lang-switcher__item_active">UA</li>
+							<span>|</span>
+							<li class="lang-switcher__item"><a href="#" class="lang-switcher__link">RU</a></li>
+						</ul>
+					</div>
+					<div data-da=".top-header__container, 767.98, 2" class="bottom-header__actions actions-header">
+						<a href="#" class="actions-header__item actions-header__item_favorite _icon-favorite"></a>
+						<a href="#" class="actions-header__item actions-header__item_cart _icon-cart"></a>
+						<a href="#" class="actions-header__item actions-header__item_user _icon-user"></a>
+					</div>
+					<div data-da=".menu__body, 550, 1" class="bottom-header__actions-mobile">
+						<a href="#" class="_icon-user">Увійти</a>
+						<a href="#" class="_icon-favorite">Бажання</a>
+					</div>
+				</div>
+			</div>
+		</header>
+		<main class="page">
+			<div class="page-header">
+				<div class="page-header__container">
+					<nav class="page-header__breadcrumbs breadcrumbs">
+						<ul class="breadcrumbs__list">
+							<li class="breadcrumbs__item">
+								<a href="index.html" class="breadcrumbs__link"><span>Головна</span></a>
+							</li>
+							<li class="breadcrumbs__item">
+								<a href="catalog-product.html" class="breadcrumbs__link"><span>iPhone</span></a>
+							</li>
+							<li class="breadcrumbs__item">
+								<a href="#" class="breadcrumbs__link"><span>iPhone 13 Pro Max</span></a>
+							</li>
+							<li class="breadcrumbs__item">
+								<span class="breadcrumbs__current">iPhone 13 Pro Max 256Gb Sierra Blue (MLLE3)</span>
+							</li>
+						</ul>
+					</nav>
+				</div>
+			</div>
+			<div class="product-card">
+				<div class="product-card__container">
+					<div class="product-card__body">
+						<div class="product-card__main main-card">
+							<div class="main-card__slider">
+								<div class="main-card__swiper">
+									<div class="main-card__slide-ibg">
+										<img src="img/product-card/card/01-01.jpg" alt="Image">
+									</div>
+									<div class="main-card__slide-ibg">
+										<img src="img/product-card/card/01-02.jpg" alt="Image">
+									</div>
+									<div class="main-card__slide-ibg">
+										<img src="img/product-card/card/01-03.jpg" alt="Image">
+									</div>
+									<div class="main-card__slide-ibg">
+										<img src="img/product-card/card/01-04.jpg" alt="Image">
+									</div>
+									<div class="main-card__slide-ibg">
+										<img src="img/product-card/card/01-05.jpg" alt="Image">
+									</div>
+									<div class="main-card__slide-ibg">
+										<img src="img/product-card/card/01-06.jpg" alt="Image">
+									</div>
+								</div>
+							</div>
+							<div class="product-card__inner">
+								<button class="slider-arrow slider-arrow_prev _icon-arrow"></button>
+								<div class="main-card__thumbs thumbs-card">
+									<div class="thumbs-card__swiper">
+										<div class="thumbs-card__slide-ibg">
+											<img src="img/product-card/card/01-01.jpg" alt="Image">
+										</div>
+										<div class="thumbs-card__slide-ibg">
+											<img src="img/product-card/card/01-02.jpg" alt="Image">
+										</div>
+										<div class="thumbs-card__slide-ibg">
+											<img src="img/product-card/card/01-03.jpg" alt="Image">
+										</div>
+										<div class="thumbs-card__slide-ibg">
+											<img src="img/product-card/card/01-04.jpg" alt="Image">
+										</div>
+										<div class="thumbs-card__slide-ibg">
+											<img src="img/product-card/card/01-05.jpg" alt="Image">
+										</div>
+										<div class="thumbs-card__slide-ibg">
+											<img src="img/product-card/card/01-06.jpg" alt="Image">
+										</div>
+									</div>
+								</div>
+								<button class="slider-arrow slider-arrow_next _icon-arrow"></button>
+							</div>
+						</div>
+						<div class="product-card__content">
+							<div class="product-card__header header-card">
+								<h1 class="header-card__title">
+									iPhone 13 Pro Max 256Gb Sierra Blue (MLLE3)
+								</h1>
+								<div class="header-card__body">
+									<div class="header-card__stock header-card__stock_yes">Є в наявності</div>
+									<div class="header-card__code">Код товару: 229881</div>
+									<div class="header-card__rating rating rating_set">
+										<div class="rating__body">
+											<div class="rating__active"></div>
+											<div class="rating__items">
+												<input type="radio" class="rating__item" value="1" name="rating">
+												<input type="radio" class="rating__item" value="2" name="rating">
+												<input type="radio" class="rating__item" value="3" name="rating">
+												<input type="radio" class="rating__item" value="4" name="rating">
+												<input type="radio" class="rating__item" value="5" name="rating">
+											</div>
+										</div>
+										<div class="rating__value">3.6</div>
+										<div class="rating__info">Відгуки (12)</div>
+									</div>
+								</div>
+							</div>
+							<div class="product-card__info info-card">
+								<div class="info-card__prices">
+									<div class="info-card__price_old">46 499 грн.</div>
+									<div class="info-card__price">41 899 грн.</div>
+								</div>
+								<div class="info-card__button-group">
+									<button class="info-card__button button-3">Купити</button>
+									<button class="info-card__button_one-click button-3">Купити в один клік</button>
+								</div>
+								<div class="info-card__color color-info">
+									<div class="color-info__title">Кольор:</div>
+									<ul class="color-info__list">
+										<li><a href="#" class="color-info__link"><img src="img/product-card/color/01.png" alt="Image"></a></li>
+										<li><a href="#" class="color-info__link _active"><img src="img/product-card/color/02.png" alt="Image"></a></li>
+										<li><a href="#" class="color-info__link"><img src="img/product-card/color/03.png" alt="Image"></a></li>
+										<li><a href="#" class="color-info__link"><img src="img/product-card/color/04.png" alt="Image"></a></li>
+										<li><a href="#" class="color-info__link"><img src="img/product-card/color/05.png" alt="Image"></a></li>
+									</ul>
+								</div>
+								<div class="info-card__gb gb-info">
+									<div class="gb-info__title">Об'єм пам'яті:</div>
+									<ul class="gb-info__list">
+										<li><a href="#" class="gb-info__link">128 Gb</a></li>
+										<li><a href="#" class="gb-info__link _active">256 Gb</a></li>
+										<li><a href="#" class="gb-info__link">512 Gb</a></li>
+										<li><a href="#" class="gb-info__link">1 TB</a></li>
+									</ul>
+								</div>
+								<div class="info-card__text">
+									Екран: 6,7 "OLED 1284x2778 процесор: Apple A15 Bionic ОС: iOS 15 акумулятор: незнімний
+									камера: 12 (f / 1.5, широкоугольная) + 12 (f / 1.8, 120 градусів, надширококутний) + 12 (f /
+									2.8, 3х кратний телеоб'єктив) Мп NFC: + (Apple Pay)
+								</div>
+							</div>
+						</div>
+					</div>
+					<div data-tabs class="product-card__info info-product">
+						<nav data-tabs-titles class="info-product__navigation">
+							<button type="submit" class="info-product__title _tab-active">Характеристики</button>
+							<button type="submit" class="info-product__title">Відгуки</button>
+							<button type="submit" class="info-product__title">Аксесуари</button>
+						</nav>
+						<div data-tabs-body class="info-product__content">
+							<div class="info-product__body body-info">
+								<div class="body-info__title">
+									Характеристики iPhone 13 Pro Max 256Gb Sierra Blue (MLLE3)
+								</div>
+								<div class="body-info__characteristic">
+									<div class="body-info__name">Назва</div>
+									<div class="body-info__text">iPhone 13 Pro Max 256Gb Sierra Blue (MLLE3)</div>
+								</div>
+								<div class="body-info__characteristic">
+									<div class="body-info__name">Бренд</div>
+									<div class="body-info__text">Apple</div>
+								</div>
+								<div class="body-info__characteristic">
+									<div class="body-info__name">Вид товару</div>
+									<div class="body-info__text">iPhone</div>
+								</div>
+								<div class="body-info__characteristic">
+									<div class="body-info__name">Гарантійний термін</div>
+									<div class="body-info__text">12 місяців</div>
+								</div>
+								<div class="body-info__characteristic">
+									<div class="body-info__name">Модель</div>
+									<div class="body-info__text">iPhone 13 Pro Max</div>
+								</div>
+								<div class="body-info__characteristic">
+									<div class="body-info__name">Колір</div>
+									<div class="body-info__text">Sierra Blue</div>
+								</div>
+								<div class="body-info__characteristic">
+									<div class="body-info__name">Обсяг пам'яті</div>
+									<div class="body-info__text">256Gb</div>
+								</div>
+								<div class="body-info__characteristic">
+									<div class="body-info__name">Розміри та вага</div>
+									<div class="body-info__text">
+										Ширина: 78,1 мм. Довжина: 160,8 мм. Товщина: 7,65 мм. Вага: 238 г
+									</div>
+								</div>
+								<div class="body-info__characteristic">
+									<div class="body-info__name">Інформація про процесор</div>
+									<div class="body-info__text">
+										Процесор A15 Bionic <br>
+										Новий 6-ядерний процесор з 2 ядрами продуктивності та 4 ядрами ефективності <br>
+										Новий 4-ядерний графічний процесор <br>
+										Нова 16-ядерна система Neural Engine
+									</div>
+								</div>
+								<div class="body-info__characteristic">
+									<div class="body-info__name">Дисплей</div>
+									<div class="body-info__text">
+										Дисплей Super Retina XDR з технологією ProMotion Дисплей OLED,
+										на всю передню панель, діагональ 6,7 дюйма 2778×1284 пікселя, 458 пікселів на дюйм
+										Технологія ProMotion з адаптивною частотою оновлення до 120 Гц відгук при натисканні
+										Контрастність 2 000 000:1 (стандартна) Яскравість до 1000 кд/м² (стандартна); до 1200
+										кд/м² при перегляді контенту у форматі HDR Олеофобне покриття, стійке до появи слідів від
+										пальців Підтримка одночасного відображення кількох мов та наборів символів
+									</div>
+								</div>
+								<div class="body-info__characteristic">
+									<div class="body-info__name">Захист від бризок води та пилу</div>
+									<div class="body-info__text">
+										Рейтинг IP68 за стандартом IEC 60529 (допускається занурення у
+										воду на глибину до 6 метрів тривалістю до 30 хвилин)
+									</div>
+								</div>
+								<div class="body-info__characteristic">
+									<div class="body-info__name">Камера</div>
+									<div class="body-info__text">
+										Система камер Pro 12 Мп: телефото, ширококутна та надширококутна <br>
+										Телефото: діафрагма ƒ/2.8 <br>
+										Ширококутна: діафрагма ƒ/1.5 <br>
+										Надширококутна: діафрагма ƒ/1.8 та кут огляду 120° <br>
+										Оптичний зум 3× збільшення, оптичний зум 2× зменшення; діапазон оптичного зуму 6× <br>
+										Цифровий зум до 15× <br>
+										Нічний режим для портретів із застосуванням сканера LiDAR <br>
+										Режим «Портрет» з покращеним ефектом. <br>
+										та функцією «Глибина» <br>
+										Портретне освітлення (шість варіантів: Природне світло, Студійне світло, Контурне світло,
+										Сценічний світло, Сценічний світло - ч/б, Світла тональність - ч/б) <br>
+										Подвійна оптична стабілізація зображення (телефотокамера та ширококутна камера) <br>
+										Оптична стабілізація зображення зсувом матриці (ширококутна камера) <br>
+										Шестилінзовий об'єктив (телефотокамера та надширококутна камера); семилінзовий об'єктив
+										(ширококутна камера) <br>
+										Спалах True Tone із функцією Slow Sync <br>
+										Панорамна зйомка (до 63 Мп) <br>
+										Захист об'єктива сапфіровим склом <br>
+										Підтримка Focus Pixels на всій матриці
+										(ширококутна камера) <br>
+										Нічний режим <br>
+										Технологія Deep Fusion <br>
+										Smart HDR 4 <br>
+										Фотографічні стилі <br>
+										Режим макрозйомки <br>
+										Формат Apple ProRAW <br>
+										Широкий колірний діапазон для фотографій та Live Photos <br>
+										Корекція спотворень об'єктива
+										(надширококутна камера) <br>
+										Передова система усунення ефекту червоних очей <br>
+										Прив'язка фотографій до місця зйомки <br>
+										Автоматична стабілізація зображення <br>
+										Серійна зйомка <br>
+										Формати зображень: HEIF та JPEG
+									</div>
+								</div>
+								<div class="body-info__characteristic">
+									<div class="body-info__name">Датчики</div>
+									<div class="body-info__text">
+										Face ID <br>
+										Барометр <br>
+										Триосьовий гіроскоп <br>
+										Акселерометр <br>
+										Датчик наближення <br>
+										Датчик зовнішньої освітленості <br>
+									</div>
+								</div>
+							</div>
+							<div class="info-product__body">
+								--
+							</div>
+							<div class="info-product__body">
+								--
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</main>
+		<footer class="footer">
+			<div class="footer__container">
+				<div class="footer__body">
+					<div class="footer__main">
+						<a href="#" class="footer__logo"><span>Love</span> & Apples</a>
+						<div class="footer__contacts">
+							<a href="tel:+380980585366" class="_icon-phone"><span>+38 (098) 058 53 66</span></a>
+							<a href="mailto:love&apples@gmail.com" class="_icon-mail"><span>love&apples@gmail.com</span></a>
+							<a href="#" class="_icon-location"><span>Київ, Україна</span></a>
+						</div>
+						<div class="footer__social">
+							<a href="#" class="_icon-instagram"></a>
+							<a href="#" class="_icon-telegram"></a>
+						</div>
+					</div>
+					<div class="footer__body-menu">
+						<div data-spollers="678" class="footer__menu menu-footer">
+							<div class="menu-footer__column">
+								<button type="button" data-spoller class="menu-footer__title _footer-title">Меню магазину</button>
+								<ul class="menu-footer__list">
+									<li><a href="#" class="menu-footer__link">Каталог</a></li>
+									<li><a href="#" class="menu-footer__link">Акція</a></li>
+									<li><a href="#" class="menu-footer__link">Гарантія</a></li>
+									<li><a href="#" class="menu-footer__link">Оплата</a></li>
+									<li><a href="#" class="menu-footer__link">Доставка</a></li>
+									<li><a href="#" class="menu-footer__link">Контакти</a></li>
+								</ul>
+							</div>
+						</div>
+						<div data-spollers="678" class="footer__menu menu-footer">
+							<div class="menu-footer__column">
+								<button type="button" data-spoller class="menu-footer__title _footer-title">Особистий кабінет</button>
+								<ul class="menu-footer__list">
+									<li><a href="#" class="menu-footer__link">Мій кабінет</a></li>
+									<li><a href="#" class="menu-footer__link">Бажання</a></li>
+									<li><a href="#" class="menu-footer__link">Мій кошик</a></li>
+									<li><a href="#" class="menu-footer__link">Історія замовлень</a></li>
+									<li><a href="#" class="menu-footer__link">Мої картки</a></li>
+									<li><a href="#" class="menu-footer__link">Налаштування</a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</footer>
+	</div>
+	<div id="callback" aria-hidden="true" class="popup">
+		<div class="popup__wrapper">
+			<div class="popup__content">
+				<button data-close type="button" class="popup__close">Закрыть</button>
+				<div class="popup__text">
+					Text
+				</div>
+			</div>
+		</div>
+	</div>
+	<script src="js/app.min.js?_v=20220419005634"></script>
+</body>
+
+</html>
